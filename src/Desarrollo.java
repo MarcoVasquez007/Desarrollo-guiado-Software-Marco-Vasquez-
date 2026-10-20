@@ -28,6 +28,8 @@ public class Desarrollo {
 
     public Desarrollo (String nombre , double precio, boolean activo){
 
+        contador++;
+
         this.nombre = nombre;
         this.precio = precio;
         this.activo = activo;
